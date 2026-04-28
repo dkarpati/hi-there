@@ -1,0 +1,16 @@
+# LinkedIn outreach config. Edit these directly.
+
+# manual: Claude shows you every message and waits for approval.
+# auto:   Claude decides on its own. Flip to this only after you trust the voice.
+approval_mode: manual
+
+outreach:
+  daily_cap: 10              # raise to 30 once quality looks right
+  search_urls:
+    # Paste LinkedIn Sales Navigator / search URLs that match your ICP filters.
+    # - https://www.linkedin.com/search/results/people/?...
+
+followup:
+  quiet_days: 3              # nudge threads silent for this many days
+  max_per_run: 20            # ceiling per follow-up pass
+  max_touches: 3             # stop nudging after this many follow-ups
